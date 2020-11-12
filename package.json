@@ -1,0 +1,21 @@
+{
+    "name": "rstyle-theme",
+    "displayName": "rstyle-theme",
+    "description": "Colors.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.51.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "rstyle-theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/rstyle-theme-color-theme.json"
+            }
+        ]
+    }
+}
